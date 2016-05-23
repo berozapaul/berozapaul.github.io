@@ -1,14 +1,7 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
-
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -2033,17 +2026,18 @@
 			position: relative;
 			color: #fff;
 			font-weight: 600;
-			font-size: 1em;
+			font-size: 1.55em;
 			line-height: 1em;
 		}
 
 		#logo p {
 			position: relative;
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.77em;
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
+			color: #fff;
 		}
 
 		#logo .image {
@@ -2136,7 +2130,7 @@
 		}
 
 			#main > section.dark {
-				color: #ddd;
+				color: #fff !important;
 				color: rgba(255, 255, 255, 0.75);
 			}
 
@@ -2147,6 +2141,7 @@
 				#main > section.dark strong {
 					color: #fff;
 					border-color: inherit;
+					font-weight: bold;
 				}
 
 				#main > section.dark a {
@@ -2181,6 +2176,13 @@
 				background-color: #e8edec;
 			}
 
+			#main > section.five {
+				background-color: #e8eded;
+			}
+
+			#main > section.six {
+				background-color: #e8edee;
+			}
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -2540,3 +2542,14 @@
 				}
 
 	}
+
+	.skills {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+        margin-bottom: 20px;
+        font-size: 1em;
+    }
+    .bold{font-weight: bold;}
+    .each_item{text-align: left;}
+    .duration{font-size: 0.8em;display: block;}
