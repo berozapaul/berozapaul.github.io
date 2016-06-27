@@ -1,9 +1,5 @@
 {
-    "name": "berozapaul",
-    "license": "MIT",
-    "type": "project",
-    "description": "The portfolio of Beroza Paul",
-    "require": {
-        "php": ">=5.3.3"
-    },
+  "require": {
+    "php": "^5.6.0"
+  }
 }
