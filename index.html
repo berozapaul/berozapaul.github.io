@@ -222,19 +222,19 @@
                                     <li class="bold">Ruby on Rails</li>
                                     <li class="bold">JavaScript</li>
                                     <li class="bold">jQuery</li>
-                                    <li class="bold">AngularJS</li>
+                                    <li class="bold">ReactJS/AngularJS</li>
                                     <li class="bold">CSS/CSS3</li>
                                     <li class="bold">HTML/HTML5</li>
-                                    <li class="bold">Elasticsearch</li>
+                                    <li class="bold">Elasticsearch/Solr</li>
                                     <li class="bold">REST, SOAP</li>
                                     <li class="bold">Node.js</li>
                                     <li class="bold">Expressjs</li>
                                     <li class="bold">Cybersource</li>
                                     <li class="bold">Authorize.net</li>
-                                    <li class="bold">PayPal</li>
-                                    <li class="bold">Stripe</li>
+                                    <li class="bold">PayPalStripe</li>
+                                    <li class="bold">Jenkins/Ansible</li>
                                     <li class="bold">Git</li>
-                                    <li class="bold">Junit, PHPUnit, QUnit</li>
+                                    <li class="bold">Junit, PHPUnit, QUnit, Sonarqube</li>
                                     <li class="bold">Jasmine, Karma</li>
                                 </ul>
 							</p>
@@ -292,6 +292,11 @@
                                 <h3>Knowledge Sharing</h3>
                                 <a href="http://handy-code.blogspot.com/" target="_blank" class="bold">http://handy-code.blogspot.com/</a>
 								<p>The more we share knowledge the more we ignite it. I love sharing knowledge and technical discussions. I do compile my interesting findings and post those in a technical blog. You are very welcome to visit my blog.</p>
+                                <h4>Polupar article written by me:</h4>
+                                <ol>
+                                    <li><a href="http://handy-code.blogspot.com/2015/05/binary-search-in-php-using-divide-and.html">Binary search in PHP using divide and conquer algorithm (recursively)</a></li>
+                                    <li><a href="http://handy-code.blogspot.com/2016/07/how-to-solve-pgundefinedtable-error.html">How to solve PG::UndefinedTable: ERROR: relation "table" does not exist issue</a></li><li><a href="http://handy-code.blogspot.com/2017/12/exception-in-queued-gpt-command.html">Exception in queued GPT command TypeError: Cannot read property 'addService' of null Google dfp</a></li>
+                                </ol>
 							</article>
 						</div>
 					</section>
@@ -303,7 +308,8 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>Copyright © 2016 Beroza Paul. All rights reserved.</li></li>
+						<li>Copyright © <span></span> Beroza Paul. All rights reserved.</li>
+                        <li><a href=""></a></li>
 					</ul>
 
 			</div>
@@ -319,3 +325,9 @@
 
 	</body>
 </html>
+<script type="text/javascript">
+    $(function(){
+        var dateObj = new Date();
+        $('.copyright').find('span').html(dateObj.getFullYear());
+    });
+</script>
